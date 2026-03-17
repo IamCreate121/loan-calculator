@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 3px;
+    width: auto;
+    height: fit-content;
+    margin: 10;
+}
+
