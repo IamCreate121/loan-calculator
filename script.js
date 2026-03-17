@@ -1,3 +1,7 @@
+import styles from './styles.css' with { type: 'css' };
+//document.adoptedStyleSheets = [styles];
+
+
 //--Welcome Message--/
 document.getElementById('welcome-message').innerText = "I will be showing step by step how I built this tool";
 //
