@@ -1,5 +1,5 @@
-import styles from './styles.css' with { type: 'css' };
-document.adoptedStyleSheets = [styles];
+//import styles from './styles.css' with { type: 'css' };
+//document.adoptedStyleSheets = [styles];
 //document.writeln
 
 //--Welcome Message--/
