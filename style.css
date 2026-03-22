@@ -23,7 +23,7 @@ header{
 }
 
 .head-img{
-    background-image: url("https://www.elibrary.imf.org/view/book/9781484368589/images/inline-9781484368589_f0005-01.jpg");
+    /*background-image: url("https://www.elibrary.imf.org/view/book/9781484368589/images/inline-9781484368589_f0005-01.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
