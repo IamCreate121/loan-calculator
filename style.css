@@ -24,7 +24,7 @@ header{
 .head-img{
     background-image: url('https://unsplash.com/photos/young-businesswoman-in-eyeglasses-and-smart-casualwear-taking-cardboard-box-with-online-order-while-courier-passing-it-to-her-lTXicHPjkMY');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 400px;
     height: 300px;
 }
