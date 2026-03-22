@@ -21,6 +21,10 @@ header{
     display: flex;
 }
 
+.head-img{
+    background-image: url('https://unsplash.com/photos/young-businesswoman-in-eyeglasses-and-smart-casualwear-taking-cardboard-box-with-online-order-while-courier-passing-it-to-her-lTXicHPjkMY');
+}
+
 .p-1{
     border: 100px solid 2px greenyellow;
     border-radius: 50%;
