@@ -5,5 +5,10 @@
     width: auto;
     height: fit-content;
     margin: 10;
+    border: 10px solid blueviolet;
 }
 
+::before{
+    top: 50px;
+    bottom: 30px;
+}
