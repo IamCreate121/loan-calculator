@@ -22,16 +22,9 @@ header{
     display: flex;
     position: fixed;
 }
-/*
-.head-img{
-    background-image: url("img/inline-9781484368589_f0005-01.jpg") fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 400px;
-    height: 300px;
-}
-*/
+
+
+
 .p-1{
     border: solid 2px greenyellow;
 }
