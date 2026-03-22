@@ -2,10 +2,11 @@
     box-sizing: border-box;
     background-color: aliceblue;
     padding: 3px;
-    width: auto;
+    width: 100%;
     height: fit-content;
     margin: 10;
     border: 100px solid blueviolet;
+    border-radius: 50px;
 }
 
 ::before{
