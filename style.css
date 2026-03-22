@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     background-color: aliceblue;
+    border: solid 300px;
     padding: 10px;
     width: auto;
     height: fit-content;
