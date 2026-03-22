@@ -5,16 +5,7 @@
     width: 100%;
     height: fit-content;
     margin: 10;
-}
-
-.p-1{
-    border: 100px solid 2px greenyellow;
-    border-radius: 50%;
-}
-
-::before{
-    top: 50px;
-    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -22,3 +13,21 @@ header{
     height: fit-content;
     background-color: blue;
 }
+
+#nav-bar{
+    background-color: bisque;
+    border: solid 5px orange;
+    display: block;
+}
+
+.p-1{
+    border: 100px solid 2px greenyellow;
+    border-radius: 50%;
+}
+
+/*::before{
+    top: 50px;
+    bottom: 30px;
+}
+*/
+
