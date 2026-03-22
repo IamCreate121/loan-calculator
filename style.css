@@ -20,7 +20,6 @@ header{
     background-color: bisque;
     border: solid 5px orange;
     display: flex;
-    overflow: hidden;
     position: fixed;
 }
 /*
@@ -35,7 +34,6 @@ header{
 */
 .p-1{
     border: solid 2px greenyellow;
-    border-radius: 50%;
 }
 
 /*::before{
