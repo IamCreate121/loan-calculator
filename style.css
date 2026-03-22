@@ -23,7 +23,7 @@ header{
 }
 
 .head-img{
-    background-image: url("img/inline-9781484368589_f0005-01.jpg");
+    background-image: url("img/inline-9781484368589_f0005-01.jpg") fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
