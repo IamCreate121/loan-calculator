@@ -34,7 +34,7 @@ header{
 }
 */
 .p-1{
-    border: 100px solid 2px greenyellow;
+    border: solid 2px greenyellow;
     border-radius: 50%;
 }
 
