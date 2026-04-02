@@ -16,7 +16,7 @@ const tableBody = document.getElementById('tableBody');
 function formatCurrency(value) {
     return new Intl.NumberFormat('en-US', {
         style: 'currency',
-        currency: 'USD',
+        currency: 'NGN',
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
     }).format(value);
@@ -106,11 +106,11 @@ function displayAmortizationTable(schedule) {
     schedule.forEach(row => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-            <td>${row.paymentNumber}</td>
-            <td>${formatCurrency(row.paymentAmount)}</td>
-            <td>${formatCurrency(row.principal)}</td>
-            <td>${formatCurrency(row.interest)}</td>
-            <td>${formatCurrency(row.balance)}</td>
+            <td>&#8358;{row.paymentNumber}</td>
+            <td>&#8358;{formatCurrency(row.paymentAmount)}</td>
+            <td>&#8358;{formatCurrency(row.principal)}</td>
+            <td>&#8358;{formatCurrency(row.interest)}</td>
+            <td>&#8358;{formatCurrency(row.balance)}</td>
         `;
         tableBody.appendChild(tr);
     });
