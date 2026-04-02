@@ -106,11 +106,11 @@ function displayAmortizationTable(schedule) {
     schedule.forEach(row => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-            <td>&#8358;{row.paymentNumber}</td>
-            <td>&#8358;{formatCurrency(row.paymentAmount)}</td>
-            <td>&#8358;{formatCurrency(row.principal)}</td>
-            <td>&#8358;{formatCurrency(row.interest)}</td>
-            <td>&#8358;{formatCurrency(row.balance)}</td>
+            <td>&#8358;${row.paymentNumber}</td>
+            <td>&#8358;${formatCurrency(row.paymentAmount)}</td>
+            <td>&#8358;${formatCurrency(row.principal)}</td>
+            <td>&#8358;${formatCurrency(row.interest)}</td>
+            <td>&#8358;${formatCurrency(row.balance)}</td>
         `;
         tableBody.appendChild(tr);
     });
